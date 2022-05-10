@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/iniciar-sesion-elegir.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="iniciar-sesion-elegir" />
+    <div class="container-center-horizontal">
+      <form class="iniciar-sesion-elegir screen" name="form5" action="form5" method="post">
+        <div class="iniciar-sesin-elegir-C61RwL">
+          <img class="rectangle-1315-DQwPlQ" src="" />
+          <img class="line-14-DQwPlQ" src="" />
+          <div class="contrasea-DQwPlQ">Contraseña</div>
+          <div class="olvide-mi-contrasea-DQwPlQ">Olvide mi contraseña</div>
+          <img class="vector-40-DQwPlQ" src="" />
+          <div class="group-261-DQwPlQ">
+            <div class="rectangle-6-dygdmu border-1px-cielo"></div>
+            <div class="enviar-dygdmu valign-text-middle inter-semi-bold-blue-jeans-14px">Iniciar sesión</div>
+          </div>
+          <div class="group-260-DQwPlQ">
+            <div class="rectangle-6-dQJEIs"></div>
+            <div class="enviar-dQJEIs valign-text-middle inter-semi-bold-white-14px">Registrarse</div>
+          </div>
+          <div class="rectangle-1316-DQwPlQ"></div>
+          <div class="vas-a-iniciar-sesin-DQwPlQ inter-normal-blue-jeans-14px">
+            <span class="span0-axX408 inter-normal-blue-jeans-14px">¿Vas a </span
+            ><span class="span1-axX408 inter-semi-bold-blue-jeans-14px">iniciar sesión</span
+            ><span class="span2-axX408 inter-normal-blue-jeans-14px"> como emprendedor o como cliente?</span>
+          </div>
+          <a href="javascript:SubmitForm('form5')"> <div class="rectangle-1320-DQwPlQ"></div></a
+          ><a href="javascript:SubmitForm('form5')"> <div class="rectangle-1321-DQwPlQ"></div></a
+          ><a href="javascript:SubmitForm('form5')"
+            ><div class="emprendedor-DQwPlQ valign-text-middle inter-normal-white-14px">Emprendedor</div>
+          </a>
+          <div class="cliente-DQwPlQ valign-text-middle inter-normal-white-14px">Cliente</div>
+          <a href="javascript:SubmitForm('form5')">
+            <div class="group-370-DQwPlQ">
+              <div class="group-371-pYEkP2">
+                <div class="regresar-Jm1pGQ inter-normal-baby-powder-14px">Regresar</div>
+                <img class="vector-Jm1pGQ" src="" />
+              </div></div
+          ></a>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
