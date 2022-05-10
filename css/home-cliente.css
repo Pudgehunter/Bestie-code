@@ -41,7 +41,7 @@
 .home-cliente .union-rmsJ2W {
   --z-index: 1;
   background-color: transparent;
-  background-image: url(../img/union-104@2x.svg);
+  background-image: url(../img/proyectos.png);
   background-size: 100% 100%;
   cursor: pointer;
   height: 39px;
@@ -56,7 +56,7 @@
 .home-cliente .union-YxtCn7 {
   --z-index: 2;
   background-color: transparent;
-  background-image: url(../img/union-2@2x.svg);
+  background-image: url(../img/billetera.png);
   background-size: 100% 100%;
   cursor: pointer;
   height: 35px;
@@ -71,7 +71,7 @@
 .home-cliente .union-51xng8 {
   --z-index: 3;
   background-color: transparent;
-  background-image: url(../img/union-50@2x.svg);
+  background-image: url(../img/perfil.png);
   background-size: 100% 100%;
   cursor: pointer;
   height: 36px;
@@ -86,7 +86,7 @@
 .home-cliente .union-i7e17Y {
   --z-index: 4;
   background-color: transparent;
-  background-image: url(../img/union-107@2x.svg);
+  background-image: url(../img/home-azul.png);
   background-size: 100% 100%;
   cursor: pointer;
   height: 37px;
@@ -98,92 +98,6 @@
   width: 26px;
 }
 
-.home-cliente .nav-client-VMr6Om {
-  --z-index: 1;
-  background-color: #ffffff;
-  height: 75px;
-  left: 0px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  overflow: hidden;
-  position: absolute;
-  top: 769px;
-  width: 390px;
-}
-
-.home-cliente .rectangle-1462-DNEmUO {
-  --z-index: 0;
-  background-color: transparent;
-  background-image: url(../img/rectangle-1462@2x.svg);
-  background-size: 100% 100%;
-  height: 75px;
-  left: 0px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  width: 390px;
-}
-
-.home-cliente .union-DNEmUO {
-  --z-index: 1;
-  background-color: transparent;
-  background-image: url(../img/union-104@2x.svg);
-  background-size: 100% 100%;
-  cursor: pointer;
-  height: 39px;
-  left: 123px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 16px;
-  width: 46px;
-}
-
-.home-cliente .union-vTd8ZD {
-  --z-index: 2;
-  background-color: transparent;
-  background-image: url(../img/union-2@2x.svg);
-  background-size: 100% 100%;
-  cursor: pointer;
-  height: 35px;
-  left: 225px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 16px;
-  width: 37px;
-}
-
-.home-cliente .union-NVEgC7 {
-  --z-index: 3;
-  background-color: transparent;
-  background-image: url(../img/union-50@2x.svg);
-  background-size: 100% 100%;
-  cursor: pointer;
-  height: 36px;
-  left: 330px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 17px;
-  width: 23px;
-}
-
-.home-cliente .union-e7kTex {
-  --z-index: 4;
-  background-color: transparent;
-  background-image: url(../img/union-107@2x.svg);
-  background-size: 100% 100%;
-  cursor: pointer;
-  height: 37px;
-  left: 36px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 15px;
-  width: 26px;
-}
 
 .home-cliente .group-85-C61RwL {
   --z-index: 2;
@@ -644,7 +558,7 @@
 .home-cliente .mask-group-SxJiUt {
   --z-index: 0;
   background-color: transparent;
-  background-image: url(../img/mask-group-44@2x.svg);
+  background-image: url(../img/bowl.jpg);
   background-size: 100% 100%;
   height: 161px;
   left: 0px;
@@ -657,7 +571,7 @@
 .home-cliente .rectangle-32-SxJiUt {
   --z-index: 1;
   background-color: transparent;
-  background-image: url(../img/rectangle-32@2x.svg);
+  background-image: url(../img/cardHome.png);
   background-size: 100% 100%;
   height: 30px;
   left: 0px;
@@ -801,7 +715,7 @@
 .home-cliente .rectangle-66-QSJHGA {
   --z-index: 1;
   background-color: transparent;
-  background-image: url(../img/rectangle-32@2x.svg);
+  background-image: url(../img/cardHome.png);
   background-size: 100% 100%;
   height: 30px;
   left: 0px;
@@ -930,30 +844,30 @@
 .home-cliente .rectangle-3-82o2TS {
   --z-index: 0;
   background-color: transparent;
-  background-image: url(../img/rectangle-3@1x.jpg);
+  background-image: url(../img/takistakis.png);
   background-size: 100% 100%;
   height: 161px;
-  left: 29px;
+  left: 0px;
   mix-blend-mode: normal;
   object-fit: cover;
   opacity: 1;
   position: absolute;
   top: -0px;
-  width: 80px;
+  width: 138px;
 }
 
 .home-cliente .rectangle-68-82o2TS {
   --z-index: 1;
   background-color: transparent;
-  background-image: url(../img/rectangle-68@2x.svg);
+  background-image: url(../img/cardHome.png);
   background-size: 100% 100%;
   height: 30px;
-  left: 29px;
+  left: 0px;
   mix-blend-mode: normal;
   opacity: 1;
   position: absolute;
   top: 160px;
-  width: 80px;
+  width: 138px;
 }
 
 .home-cliente .group-36-82o2TS {
@@ -1795,19 +1709,6 @@
   width: 390px;
 }
 
-.home-cliente-selecciono-etiqueta .nav-client-C61RwL {
-  --z-index: 0;
-  background-color: #ffffff;
-  height: 75px;
-  left: 0px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  overflow: hidden;
-  position: absolute;
-  top: 769px;
-  width: 390px;
-}
-
 .home-cliente-selecciono-etiqueta .rectangle-1462-rmsJ2W {
   --z-index: 0;
   background-color: transparent;
@@ -1822,65 +1723,6 @@
   width: 390px;
 }
 
-.home-cliente-selecciono-etiqueta .union-rmsJ2W {
-  --z-index: 1;
-  background-color: transparent;
-  background-image: url(../img/union-104@2x.svg);
-  background-size: 100% 100%;
-  cursor: pointer;
-  height: 39px;
-  left: 123px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 16px;
-  width: 46px;
-}
-
-.home-cliente-selecciono-etiqueta .union-YxtCn7 {
-  --z-index: 2;
-  background-color: transparent;
-  background-image: url(../img/union-2@2x.svg);
-  background-size: 100% 100%;
-  cursor: pointer;
-  height: 35px;
-  left: 225px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 16px;
-  width: 37px;
-}
-
-.home-cliente-selecciono-etiqueta .union-51xng8 {
-  --z-index: 3;
-  background-color: transparent;
-  background-image: url(../img/union-50@2x.svg);
-  background-size: 100% 100%;
-  cursor: pointer;
-  height: 36px;
-  left: 330px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 17px;
-  width: 23px;
-}
-
-.home-cliente-selecciono-etiqueta .union-i7e17Y {
-  --z-index: 4;
-  background-color: transparent;
-  background-image: url(../img/union-107@2x.svg);
-  background-size: 100% 100%;
-  cursor: pointer;
-  height: 37px;
-  left: 36px;
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 15px;
-  width: 26px;
-}
 
 .home-cliente-selecciono-etiqueta .group-74-C61RwL {
   --z-index: 1;
